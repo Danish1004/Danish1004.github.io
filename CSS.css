@@ -39,3 +39,29 @@
         transform: translate(0);
     }
 }
+.footer{
+    margin-top: 370px;
+    height: 250px;
+    background-color: white;
+    
+    display: block;
+    text-align: center;
+    font-size: 33px;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.insta-button{
+    object-fit: 5%;
+    padding-top: 10px;
+}
+.github-button{
+    object-fit: 5%;
+    padding-top: 10px;
+}
