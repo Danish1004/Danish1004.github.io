@@ -44,6 +44,7 @@
   font-size: 30px;
   cursor: pointer;
   display: none;
+  color: rgb(255, 255, 255);
 }
 .show-menu-btn {
   float: right;
