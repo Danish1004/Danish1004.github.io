@@ -103,6 +103,7 @@
     position: absolute;
     top: 40px;
     right: 40px;
+    color: white;
   }
   #chk:checked ~ .menu {
     right: 0;
