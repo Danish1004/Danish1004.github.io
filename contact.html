@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php"></form>
+    <title>Danish Sharma | Contact </title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">Portfolio</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+           <i class="fas fa-ellipsis-h"></i>
+          </label>
+        
+          <ul class="menu">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.pdf">Resume</a>
+            <a href="contact.html">Contact</a>
+             <label for="chk" class="hide-menu-btn">
+                <i class="fas fa-times"></i>
+              </label>
+          </ul>
+      </div>
+      <div class="spacer">
+        &nbsp;
+      </div>
+    
+    <div class="contact-form">
+        <div class="first-container">
+         <div class="info-container">
+           <div> 
+             <h3></h3>
+             <p> </p>
+           </div>
+           <div> 
+             <h3>Lets Talk</h3>
+             <p>+91 60052 60945</p>
+           </div>
+           <div> 
+             <h3>General Support</h3>
+             <p><a class="link1" href="mailto: danishsharma13255@gmail.com">danishsharma13255@gmail.com</a></p>
+           </div>
+         </div>
+        </div>
+        <div class="second-container">
+          <h2>Send Me A Message</h2>
+          <form id="contact-form" method="post" action="form.php" role="form">
+            <div class="form-group">
+              <label for="name-input">Your name*</label>
+              <input id="name-input" type="text" placeholder="First name" required="">
+              <input type="text" placeholder="Last name" required="">
+            </div>
+            <div class="form-group">
+              <label for="email-input">Enter your email</label>
+              <input id="email-input" type="text" placeholder="Eg. abc@gmail.com" required="">
+            </div>
+            <div class="form-group">
+              <label for="phone-input">Enter phone number</label>
+              <input id="phone-input" type="text" placeholder="Eg. 98000 00000" required="">
+            </div>
+            <div class="form-group">
+              <label for="message-textarea">Message</label>
+              <input class="textarea" id="message-textarea" placeholder="Your valuable suggestion "></input>
+            </div>
+            <div class="button-group">
+                <button type="submit" id="fcf-button" class="btn12">Send</button>
+            </div>
+            
+          </form>
+      </div>
+    
+    
+    
+</body>
+</html>
