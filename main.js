@@ -74,7 +74,7 @@ navItems.forEach((navItems) => {
 ScrollReveal({
   reset: true,
   distance: "60px",
-  duration: 2500,
+  duration: 2000,
   delay: 100,
 });
 
@@ -136,15 +136,9 @@ const myTags = [
 ];
 
 var tagCloud = TagCloud(".cloud", myTags, {
-  radius: 500,
+  radius: 280,
   maxSpeed: "fast",
   initSpeed: "fast",
-
-  // 0 = top
-  // 90 = left
-  // 135 = right-bottom
   direction: 135,
-
-  // interact with cursor move on mouse out
   keep: true,
 });
