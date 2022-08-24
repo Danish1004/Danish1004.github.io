@@ -136,7 +136,7 @@ const myTags = [
 ];
 
 var tagCloud = TagCloud(".cloud", myTags, {
-  radius: 280,
+  radius: 250,
   maxSpeed: "fast",
   initSpeed: "fast",
   direction: 135,
