@@ -1,98 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-    <title>Danish Sharma | Home</title>
-</head>
-<body>
-  <div class="header">
-    <h2 class="logo">Portfolio</h2>
-    <input type="checkbox" id="chk">
-    <label for="chk" class="show-menu-btn">
-       <i class="fas fa-ellipsis-h"></i>
-      </label>
-    
-      <ul class="menu">
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.pdf">Resume</a>
-        <a href="contact.html">Contact</a>
-         <label for="chk" class="hide-menu-btn">
-            <i class="fas fa-times"></i>
-          </label>
-      </ul>
-  </div>
-  <div class="spacer">
-    &nbsp;
-  </div>
-  <header class="header1">
-
-    <div class="header__text-box">
-        <h1 class="heading-primary">
-            <span class="heading-primary-main">Hello</span>
-            <span class="heading-primary-sub">I am Danish Sharma</span>
-        </h1>
-
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danish Sharma | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+  </head>
+  <body>
+    <div class="scrollToTop-btn flex-center">
+      <i class="fas fa-arrow-up"></i>
     </div>
-</header>
-<main>
-  <section class="section-about">
-      <div class="heading">
-          <h2 class="heading-sec">
-              About Myself
-          </h2>
-      </div>
-      <div class="row">
-          <div class="heading-1">
-              <h3 class="heading-about">My interests</h3>
-                  <p class="paragraph">
-                      I am a Tech enthusiast who wants to learn and explore the wide field of technology. I am good in C, C++, HTML, CSS, MYSql, Python. I am currently polishing my skills in Web Development and will soon be learning more in it. 
-                  </p>
-
-                  <h3 class="heading-schooling">Education</h3>
-                  <p class="paragraph">
-                      I have done my schooling from KC International School which is a CBSE affilated school. I am currently pursuing B.Tech in Computer Science from Jaypee Institute Of Information Technology, Solan.
-                  </p>
-
+    <header>
+      <div class="nav-bar">
+        <a href="#" class="logo">Danish Sharma</a>
+        <div class="navigation">
+          <div class="nav-items">
+            <div class="nav-close-btn"></div>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a
+              href="https://drive.google.com/file/d/1S9SjpvCD1rdk8pC-daASKZW5NQj43UZp/view"
+              target="_blank"
+              >Resume</a
+            >
           </div>
+        </div>
+        <div class="nav-menu-btn"></div>
       </div>
-  </section>
-</main>
+    </header>
+    <section class="home flex-center" id="home">
+      <div class="home-container">
+        <div class="media-icons">
+          <a href="https://www.instagram.com/danish_1004/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/danishsharmaa/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Danish1004" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <div class="info">
+          <h2>Hi, I am Danish Sharma</h2>
+          <h3>Cloud Practitioner | Front-end Developer</h3>
+        </div>
 
-  <footer class="footer">
-    <div class="l-footer">
-      <h1>
-        <img src="img/logo.png" alt=""></h1>
-        
-    </div>
-    <ul class="r-footer">
-      <li>
-         <h2>Social</h2>
-         <ul class="box">
-           <li><img class="img" src="img/instagram.png" alt=""><a href="https://www.Instagram.com/Danish_1004/">Instagram</a></li>
-           <li><img class="img" src="img/twitter.png" alt=""><a href="https://www.Twitter.com/Danish_10004/">Twitter</a></li>
-           <li><img class="img" src="img/linkedin.png" alt=""><a href="https://www.LinkedIn.com/in/danishsharmaa">LinkedIn</a></li>
-           <li><img class="img" src="img/gmail.png" alt=""><a href="mailto:danishsharma13255@gmail.com">Email</a></li>
+        <div class="home-img">
+          <img src="/images/main-img.png" />
+        </div>
+      </div>
+      <a href="#about" class="scroll-down"><i class="fas fa-arrow-down"></i></a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container flex-center">
+        <h1 class="section-title-01">About Me</h1>
+        <h2 class="section-title-02">About Me</h2>
+      </div>
+    </section>
+    <section class="education section">
+      <div class="container flex-center">
+        <div class="content">
+          <div class="education-description">
+            <h3>Education</h3>
+          </div>
+          <ul class="education-list">
+            <li class="education-container">
+              <div class="education-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Under Graduation</h3>
+                <h4>Jaypee University Of Information Technology</h4>
+                <br />
+                <p>B.Tech in Computer Science | Class of 2024 | 8.4 CGPA</p>
+              </div>
+            </li>
+            <li class="education-container">
+              <div class="education-card">
+                <i class="fas fa-school"></i>
+                <h3>Senior Secondary</h3>
+                <h4>KC International School Jammu</h4>
+                <br />
+                <p>Central Board Of Secondary Education (CBSE) | 89%</p>
+              </div>
+            </li>
           </ul>
-      </li>
-        
-      <li>
-        <h2> Legal</h2>
-        <ul class="box">
-          <li><a href="https://www.privacypolicygenerator.info/live.php?token=0oxfOjEW3Hp6IYYKmZHhTELPtCWJh0Vo">Privacy Policy</a></li>
-          <li><a href="#">Terms of Use</a></li>
-        </ul>
-      </li>
-    </ul>
-    <div class="b-footer">
-      <p>  All rights reserved by ©Danish Sharma 2021 </p>
-     </div>
+        </div>
+      </div>
+      <a
+        href="https://drive.google.com/file/d/1S9SjpvCD1rdk8pC-daASKZW5NQj43UZp/view?usp=sharing"
+        target="_blank"
+        class="btn"
+        >Download Resume <i class="fas fa-download"></i
+      ></a>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Skills</h1>
+        <h2 class="section-title-02">Skills</h2>
+      </div>
+      <div class="skills-description">
+        <p>A list of languages and frameworks I work with</p>
+      </div>
+      <div class="cloudjs">
+        <span class="cloud"></span>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="Projects">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Projects</h1>
+        <h2 class="section-title-02">Projects</h2>
+        <div class="content">
+          <div class="portfolio-list">
+            <div class="img-class-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Heart Disease Prediction Model</h3>
+                  <span>AI/ML</span>
+                </div>
+                <img src="images/heart-disease.jpg" />
+              </div>
+              <div class="portfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Heart Disease Prediction Model</h3>
+                  <img src="images/heart-disease.jpg" />
+                  <p>
+                    The project aimed to predict the presence of heart Disease
+                    in a person with few prerequisites. The accuracy of this
+                    Model being 82% with 10,000 test cases being taken into
+                    consideration. Dataset taken from Kaggle.<br />
+                    Tech Stack Used - Python | Keras | OpenCV
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="img-class-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Face Mask Detection</h3>
+                  <span>AI/ML</span>
+                </div>
+                <img src="images/mask-detection-sample.jpg" />
+              </div>
+              <div class="portfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Face Mask Detection</h3>
+                  <img src="images/mask-detection-sample.jpg" />
+                  <p>
+                    An project to check whether a person has put a mask on or
+                    not. Accuracy being over 88%. Dataset taken from Kaggle.<br />
+                    Tech Stack Used - Python | OpenCV | CNN
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="img-class-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Smart Attendence System</h3>
+                  <span>AI/ML</span>
+                </div>
+                <img
+                  src="images/Student-attendance-tracking-and-result-analysis-system-Synopsis-1024x597.jpg"
+                />
+              </div>
+              <div class="portfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Smart Attendence System</h3>
+                  <img
+                    src="images/Student-attendance-tracking-and-result-analysis-system-Synopsis-1024x597.jpg"
+                  />
+                  <p>
+                    Automated Attendance based on Face Recognition through
+                    OpenCV in Python and Tkinter<br />
+                    Tech Stack used - Pyhton | Face-recognition
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Contact</h1>
+        <h2 class="section-title-02">Contact</h2>
+        <div class="content">
+          <div class="content-left">
+            <p>Have a great idea? Lets Talk</p>
+          </div>
+        </div>
+        <a href="mailto:danishsharma13255@gmail.com" class="btn"
+          >Get in Touch
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-copyright-group">
+        <p>© 2022 Danish Sharma - All rights reserved.</p>
+      </div>
     </footer>
-        
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
