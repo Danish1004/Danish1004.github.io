@@ -50,7 +50,10 @@ const Contact = () => {
               <h3 className="contact_card-title">LinkedIn</h3>
               <span className="contact_card-data">Danish1004</span>
 
-              <a href="" className="contact_button">
+              <a
+                href="https://www.linkedin.com/Danish1004"
+                className="contact_button"
+              >
                 Write Me{" "}
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
