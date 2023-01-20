@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Danish1004.github.io/static/css/main.6926bea7.css",
+    "main.js": "/Danish1004.github.io/static/js/main.e632160d.js",
+    "static/media/main-img.png": "/Danish1004.github.io/static/media/main-img.0a1c62c7401aa950d284.png",
+    "static/media/work2.jpg": "/Danish1004.github.io/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/Danish1004.github.io/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work1.jpg": "/Danish1004.github.io/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/Danish1004.github.io/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/Danish1004.github.io/index.html",
+    "main.6926bea7.css.map": "/Danish1004.github.io/static/css/main.6926bea7.css.map",
+    "main.e632160d.js.map": "/Danish1004.github.io/static/js/main.e632160d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6926bea7.css",
+    "static/js/main.e632160d.js"
+  ]
+}
